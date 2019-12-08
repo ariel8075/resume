@@ -1,19 +1,36 @@
 
-.container
+
+body
 {
-	 background: #FFF0F5;
-	 height:100%;
+  margin:0px;
+  width:100%;
+  background-image:url( "images/pic10" );
+　background-repeat:no-repeat;
+　
+
+}
+ html
+ {
+ 	margin:0px;
+   width:100%;
+ }
+
+.img9
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -999;
+}
+.img9 img 
+{
+    min-height: 100%;
+    width: 100%;
 }
 
-html
-{
 
- background: #FFF0F5;
- margin:0px;
- width:100%;
- background-repeat:no-repeat;
- z-index:999; 
-}
 .box1
 {
   border:#FFE4E1 dashed 3px;
